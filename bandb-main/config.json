@@ -1,3 +1,5 @@
 {
-  "app_name": "bandbsolution-main"
+  "app" {
+    "name": "bandbsolution-main",
+    "version": "0.0.1"
 }
