@@ -3,5 +3,5 @@ app:
   version: 1.0.0
 helm:
   parameters:
-    - name: ingress.enabled
-      value: 'true'
+    name: ingress.enabled
+    value: 'true'
