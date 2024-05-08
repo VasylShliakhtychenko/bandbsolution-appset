@@ -2,20 +2,11 @@ app:
   name: bonfairplace-main
   version: 0.0.307
 values: |    
-  - name: domain
-    value: 'bandbsolution.com.ua'
-  - name: ingress.enabled
-    value: 'true'
-  - name: 'ingress.rules[0].host'
-    value: 'bandbsolution.com.ua'
-  - name: 'ingress.rules[0].http.paths[0].path'
-    value: '/'
-  - name: 'ingress.rules[0].http.paths[0].pathType'
-    value: 'ImplementationSpecific'
-  - name: 'ingress.rules[0].http.paths[0].backend.service.name'
-    value: 'visit-card'
-  - name: 'ingress.rules[0].http.paths[0].backend.service.port.number'
-    value: '80'
-  - name: "ingress.annotations.kubernetes\\.io/ingress\\.global-static-ip-name"
-    value: "visit-card-prod-ingress"
-    forceString: true
+  domain: bandbsolution.com.ua
+  ingress.enabled: true
+  ingress.rules[0].host: bandbsolution.com.ua
+  ingress.rules[0].http.paths[0].path: /
+  ingress.rules[0].http.paths[0].pathType: ImplementationSpecific
+  ingress.rules[0].http.paths[0].backend.service.name: visit-card
+  ingress.rules[0].http.paths[0].backend.service.port.number: 80
+  ingress.annotations.kubernetes\\.io/ingress\\.global-static-ip-name: visit-card-prod-ingress
