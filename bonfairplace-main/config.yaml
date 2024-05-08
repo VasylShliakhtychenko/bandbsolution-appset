@@ -1,7 +1,7 @@
 app:
   name: bonfairplace-main
   namespace: argocd-testing
-  version: 0.0.307
+  version: 0.0.306
 values: |    
   fullnameOverride: bonfairplace-main
   domain: bandbsolution.com.ua
