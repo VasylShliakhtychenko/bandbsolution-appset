@@ -2,6 +2,7 @@ app:
   name: bonfairplace-main
   version: 0.0.307
 values: |    
+  fullnameOverride: bonfairplace-main
   domain: bandbsolution.com.ua
   ingress.enabled: true
   ingress.rules[0].host: bandbsolution.com.ua

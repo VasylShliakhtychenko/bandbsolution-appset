@@ -2,3 +2,4 @@ app:
   name: bonfairplace-web-settings-srv
   version: 0.0.25
 values: |
+  fullnameOverride: bonfairplace-web-settings-srv
