@@ -1,5 +1,5 @@
 app:
   name: bonfairplace-auth-srv
-  namespace: {{ .Release.namespace }}
+  namespace: argocd-testing
   version: 0.0.157
 values: ""
