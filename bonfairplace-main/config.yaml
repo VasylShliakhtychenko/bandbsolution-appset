@@ -1,6 +1,7 @@
 app:
   name: bonfairplace-main
   namespace: argocd-testing
+  project: dev-bonfairplace
   version: 0.0.306
 values: |    
   fullnameOverride: bonfairplace-main

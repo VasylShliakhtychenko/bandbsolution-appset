@@ -1,5 +1,6 @@
 app:
   name: bonfairplace-posts-srv
   namespace: argocd-testing
+  project: dev-bonfairplace
   version: 0.0.104
 values: ""
