@@ -1,7 +1,3 @@
 app:
   name: bonfairplace-main
   version: 0.0.307
-helm:
-  parameters:
-    name: ingress.enabled
-    value: 'true'

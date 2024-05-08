@@ -1,7 +1,3 @@
 app:
   name: bandbsolution-appset
   version: 1.0.0
-helm:
-  parameters:
-    name: ingress.enabled
-    value: 'true'
