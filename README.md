@@ -10,7 +10,6 @@ app:
   version: ${args.version}
 values: ""
 EOF
-
 # 2nd method to update version
 sed -i '' 's/version: .*/version: ${args.version}/' config.yaml
 
