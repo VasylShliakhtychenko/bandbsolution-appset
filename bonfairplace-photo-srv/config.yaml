@@ -1,7 +1,6 @@
 app:
   env: dev
   name: bonfairplace-photo-srv
-  namespace: argocd-testing
   project: bonfairplace
   version: 0.0.1
 values: ""

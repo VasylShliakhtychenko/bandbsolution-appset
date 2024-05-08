@@ -1,7 +1,6 @@
 app:
   env: dev
   name: bonfairplace-auth-srv
-  namespace: argocd-testing
   project: bonfairplace
   version: 0.0.157
 values: ""

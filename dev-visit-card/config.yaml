@@ -1,7 +1,6 @@
 app:
   env: dev
   name: visit-card
-  namespace: argocd-testing
   project: visit-card
   version: 0.0.31
 values: |

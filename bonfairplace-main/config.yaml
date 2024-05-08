@@ -1,7 +1,6 @@
 app:
   env: dev
   name: bonfairplace-main
-  namespace: argocd-testing
   project: bonfairplace
   version: 0.0.307
 values: |    
