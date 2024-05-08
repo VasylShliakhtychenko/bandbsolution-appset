@@ -1,4 +1,5 @@
 app:
+  env: dev
   name: visit-card
   namespace: argocd-testing
   project: dev-visit-card

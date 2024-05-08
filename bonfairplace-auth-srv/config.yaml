@@ -1,4 +1,5 @@
 app:
+  env: dev
   name: bonfairplace-auth-srv
   namespace: argocd-testing
   project: dev-bonfairplace

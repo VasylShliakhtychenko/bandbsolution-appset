@@ -1,4 +1,5 @@
 app:
+  env: dev
   name: bonfairplace-notification-srv
   namespace: argocd-testing
   project: dev-bonfairplace

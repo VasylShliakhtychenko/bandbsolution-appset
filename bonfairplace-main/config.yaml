@@ -1,4 +1,5 @@
 app:
+  env: dev
   name: bonfairplace-main
   namespace: argocd-testing
   project: dev-bonfairplace
