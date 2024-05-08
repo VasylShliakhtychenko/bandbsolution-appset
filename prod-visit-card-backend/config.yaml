@@ -1,7 +1,7 @@
 app:
-  env: prd
+  env: prod
   name: visit-card-backend
   namespace: argocd-testing
-  project: prod-visit-card
+  project: visit-card
   version: 0.0.10
 values: ""

@@ -2,7 +2,7 @@ app:
   env: dev
   name: bonfairplace-web-settings-srv
   namespace: argocd-testing
-  project: dev-bonfairplace
+  project: bonfairplace
   version: 0.0.25
 values: |
   ingress.enabled: true

@@ -2,6 +2,6 @@ app:
   env: dev
   name: visit-card-backend
   namespace: argocd-testing
-  project: dev-visit-card
+  project: visit-card
   version: 0.0.10
 values: ""

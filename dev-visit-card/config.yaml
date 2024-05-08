@@ -2,7 +2,7 @@ app:
   env: dev
   name: visit-card
   namespace: argocd-testing
-  project: dev-visit-card
+  project: visit-card
   version: 0.0.31
 values: |
   ingress.enabled: true
