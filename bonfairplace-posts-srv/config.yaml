@@ -1,3 +1,4 @@
 app:
   name: bonfairplace-posts-srv
   version: 0.0.104
+values:

@@ -1,3 +1,4 @@
 app:
   name: bonfairplace-auth-srv
   version: 0.0.157
+values:
