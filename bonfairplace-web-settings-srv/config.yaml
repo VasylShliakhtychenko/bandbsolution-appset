@@ -3,4 +3,5 @@ app:
   namespace: argocd-testing
   project: dev-bonfairplace
   version: 0.0.25
-values: ""
+values: |
+  ingress.enabled: true

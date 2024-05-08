@@ -1,0 +1,14 @@
+app:
+  name: visit-card
+  namespace: argocd-testing
+  project: prod-visit-card
+  version: 0.0.31
+values: |
+  domain: bandbsolution.com.ua
+  ingress.enabled: true
+  ingress.rules[0].host: bandbsolution.com.ua
+  ingress.rules[0].http.paths[0].path: /
+  ingress.rules[0].http.paths[0].pathType: ImplementationSpecific
+  ingress.rules[0].http.paths[0].backend.service.name: visit-card
+  ingress.rules[0].http.paths[0].backend.service.port.number: 80
+  ingress.annotations.kubernetes\\.io/ingress\\.global-static-ip-name: visit-card-prod-ingress

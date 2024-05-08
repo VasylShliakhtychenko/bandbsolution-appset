@@ -1,0 +1,6 @@
+app:
+  name: bonfairplace-mail-srv
+  namespace: argocd-testing
+  project: dev-bonfairplace
+  version: 0.0.7
+values: ""
