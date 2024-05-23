@@ -1,6 +1,0 @@
-app:
-  env: dev
-  name: bonfairplace-notification-srv
-  project: bonfairplace
-  version: 0.0.4
-values: ""

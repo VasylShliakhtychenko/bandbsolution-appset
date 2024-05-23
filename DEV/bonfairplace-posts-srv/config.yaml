@@ -1,6 +1,0 @@
-app:
-  env: dev
-  name: bonfairplace-posts-srv
-  project: bonfairplace
-  version: 0.0.104
-values: ""

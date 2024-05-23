@@ -1,6 +1,0 @@
-app:
-  env: dev
-  name: bonfairplace-auth-srv
-  project: bonfairplace
-  version: 0.0.157
-values: ""

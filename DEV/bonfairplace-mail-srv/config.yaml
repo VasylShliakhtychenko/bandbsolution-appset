@@ -1,6 +1,0 @@
-app:
-  env: dev
-  name: bonfairplace-mail-srv
-  project: bonfairplace
-  version: 0.0.7
-values: ""

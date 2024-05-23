@@ -1,6 +1,0 @@
-app:
-  env: prod
-  name: visit-card-backend
-  project: visit-card
-  version: 0.0.10
-values: ""
